@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="POST" onsubmit="getData(event)">
+        <label for="price">Price:</label>
+        <input type="number" id="price">,<br>
+        <label for="product">Product:</label>
+        <input type="text" id="product"><br>
+        <select name="Product Catogary" id="options">
+            <option value="food">Food</option>
+            <option value="SkinCare">SkinCare</option>
+            <option value="electronic">Electronic</option>
+        </select><br>
+        <input type="submit" value="Submit">
+    </form>
+    <ul id="items"></ul>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.0/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
